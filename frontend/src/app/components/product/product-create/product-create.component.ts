@@ -2,7 +2,6 @@ import { Product } from './../product.model';
 import { Router } from '@angular/router';
 import { ProductService } from './../product.service';
 import { Component, OnInit } from '@angular/core';
-import { NumberValueAccessor } from '@angular/forms';
 
 @Component({
   selector: 'app-product-create',
